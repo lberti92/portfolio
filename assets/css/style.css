@@ -1,0 +1,41 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url("../images/pexels.jpeg");
+  background-size: cover;
+}
+
+.col-lg-3 {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.Logo {
+  font-size: 45px;
+}
+.navbar {
+  justify-content: center;
+}
+
+.main {
+  margin-top: 200px;
+}
+
+.row-main, .row-about {
+  margin-top: 50px;
+}
+
+.row-about {
+  margin-top: 150px;
+}
+
+.card{
+  margin-bottom: 40px;
+}
+
+.card-img-overlay {
+  position: absolute;
+
+  color: white;
+  top: 190px;
+  margin-bottom: 20px;
+}
