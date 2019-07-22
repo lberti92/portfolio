@@ -1,16 +1,20 @@
 body {
-  font-family: 'Montserrat', sans-serif;
   background: url("../images/pexels.jpeg");
   background-size: cover;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .col-lg-3 {
-  margin-top: 20px;
+  padding-bottom: 10px;
   padding-top: 20px;
 }
 
 .Logo {
   font-size: 45px;
+}
+
+.text-wrapper {
+  padding-bottom: 10px;
 }
 .navbar {
   justify-content: center;
@@ -21,11 +25,12 @@ body {
 }
 
 .row-main, .row-about {
-  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 .row-about {
-  margin-top: 150px;
+  margin-top: 125px;
 }
 
 .card{
@@ -33,9 +38,12 @@ body {
 }
 
 .card-img-overlay {
+  background-color: black;
   position: absolute;
+  top: 205px;
+}
 
-  color: white;
-  top: 190px;
-  margin-bottom: 20px;
+.icon-link {
+  font-size: 1.75em;
+  margin-right: 10px;
 }
