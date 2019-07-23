@@ -31,9 +31,13 @@ body {
   margin-top: 200px;
 }
 
+.row-main {
+  margin-top:30px;
+  padding-top: 20px;
+}
+
 .row-main, .row-about {
   margin-bottom: 20px;
-  padding-top: 20px;
 }
 
 .row-about {
